@@ -1,4 +1,4 @@
-package HelloWord;
+package HelloWord_01;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
