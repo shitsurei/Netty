@@ -1,0 +1,29 @@
+syntax = "proto2";
+
+package GoogleProtobuf_06.Generate;
+
+option optimize_for = SPEED;
+option java_package = "GoogleProtobuf_06.Generate";
+option java_outer_classname = "AnimalInfo";
+
+message Type {
+    enum AnimalType {
+        DogType = 1;
+        CatType = 2;
+    }
+    required AnimalType a_t = 1;
+    oneof AnimalBody {
+        Dog dog = 2;
+        Cat cat = 3;
+    }
+}
+
+message Dog {
+    optional string name = 1;
+    optional int32 age = 2;
+}
+
+message Cat {
+    optional string color = 1;
+    optional string address = 2;
+}

@@ -1,5 +1,6 @@
 package GoogleProtobuf_06;
 
+import GoogleProtobuf_06.Generate.AnimalInfo;
 import GoogleProtobuf_06.Generate.DataInfo;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -20,7 +21,7 @@ public class MyClientInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = socketChannel.pipeline();
         pipeline.addLast(new ProtobufVarint32FrameDecoder());
 //        Protobuf解码器，参数是待解码对象的实例
-        pipeline.addLast(new ProtobufDecoder(DataInfo.Student.getDefaultInstance()));
+        pipeline.addLast(new ProtobufDecoder(AnimalInfo.Type.getDefaultInstance()));
         pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
         pipeline.addLast(new ProtobufEncoder());
         pipeline.addLast(new MyClientHandler());
