@@ -10,6 +10,7 @@ import org.apache.thrift.transport.TTransport;
 
 public class ThriftClient {
     public static void main(String[] args) {
+//        客户端和服务器端的传输层和协议相同时才能识别
         TTransport transport = new TFramedTransport(new TSocket("localhost", 8899), 600);
         TProtocol protocol = new TCompactProtocol(transport);
         PersonService.Client client = new PersonService.Client(protocol);
