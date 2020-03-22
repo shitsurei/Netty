@@ -19,6 +19,12 @@ package GoogleProtobuf_06;
  * 只需要一次定义结构化文件
  * 编写.proto文件
  * API采用方法链风格生成对象
+ *
+ * 使用Git作为版本控制工具在多个项目中管理相同的Proto文件
+ * 方式1：使用git submodule（git仓库里的一个仓库）
+ * ServerProject项目和ClientProject项目都将Protobuf-Java项目作为子模块
+ * 问题：1 注意子模块和外层的git分支需要手动保持一致
+ * 方式2：使用git subtree（避免多层仓库）
  */
 public class Introduction {
 //    在src目录下执行该命令生成DataInfo类文件
