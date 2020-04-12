@@ -29,8 +29,8 @@ public class GrpcServer {
     private void awaitTermination() throws InterruptedException {
         if (this.server != null)
 //            带时间参数的await方法会在服务器启动一定时间后关闭
-//            this.server.awaitTermination(5, TimeUnit.SECONDS);
-            this.server.awaitTermination();
+            this.server.awaitTermination(50, TimeUnit.SECONDS);
+//            this.server.awaitTermination();
     }
 
     public static void main(String[] args) throws InterruptedException, IOException {
