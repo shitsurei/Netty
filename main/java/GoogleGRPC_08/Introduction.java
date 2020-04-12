@@ -11,6 +11,8 @@ package GoogleGRPC_08;
  * 开发者在本地没有安装gradle的前提下也可以使用gradlew命令实现对项目的构建
  * 使用该命令同样可以对本地项目的gradle环境进行打包，生成相应的配置文件（gradle-wrapper.properties）、jar包和针对Windows系统和iOS系统的批处理文件
  * gradlew命令检测本地是否安装了对应版本的gradle时默认会从用户目录下的.gradle/wrapper/dists目录中查询（可以在配置文件中修改）
+ *
+ * gradle generateProto 插件会自动将src/main/proto目录下的proto文件编译
  */
 public class Introduction {
     public static void main(String[] args) {
