@@ -10,12 +10,12 @@ public interface StudentResponseListOrBuilder extends
   /**
    * <code>repeated .GoogleGRPC_08.proto.StudentResponse studentResponse = 1;</code>
    */
-  java.util.List<StudentResponse>
+  java.util.List<GoogleGRPC_08.proto.StudentResponse> 
       getStudentResponseList();
   /**
    * <code>repeated .GoogleGRPC_08.proto.StudentResponse studentResponse = 1;</code>
    */
-  StudentResponse getStudentResponse(int index);
+  GoogleGRPC_08.proto.StudentResponse getStudentResponse(int index);
   /**
    * <code>repeated .GoogleGRPC_08.proto.StudentResponse studentResponse = 1;</code>
    */
@@ -23,11 +23,11 @@ public interface StudentResponseListOrBuilder extends
   /**
    * <code>repeated .GoogleGRPC_08.proto.StudentResponse studentResponse = 1;</code>
    */
-  java.util.List<? extends StudentResponseOrBuilder>
+  java.util.List<? extends GoogleGRPC_08.proto.StudentResponseOrBuilder> 
       getStudentResponseOrBuilderList();
   /**
    * <code>repeated .GoogleGRPC_08.proto.StudentResponse studentResponse = 1;</code>
    */
-  StudentResponseOrBuilder getStudentResponseOrBuilder(
+  GoogleGRPC_08.proto.StudentResponseOrBuilder getStudentResponseOrBuilder(
       int index);
 }

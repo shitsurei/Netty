@@ -88,15 +88,15 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return StudentProto.internal_static_proto_StudentResponse_descriptor;
+    return GoogleGRPC_08.proto.StudentProto.internal_static_GoogleGRPC_08_proto_StudentResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return StudentProto.internal_static_proto_StudentResponse_fieldAccessorTable
+    return GoogleGRPC_08.proto.StudentProto.internal_static_GoogleGRPC_08_proto_StudentResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            StudentResponse.class, StudentResponse.Builder.class);
+            GoogleGRPC_08.proto.StudentResponse.class, GoogleGRPC_08.proto.StudentResponse.Builder.class);
   }
 
   public static final int NAME_FIELD_NUMBER = 1;
@@ -233,10 +233,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof StudentResponse)) {
+    if (!(obj instanceof GoogleGRPC_08.proto.StudentResponse)) {
       return super.equals(obj);
     }
-    StudentResponse other = (StudentResponse) obj;
+    GoogleGRPC_08.proto.StudentResponse other = (GoogleGRPC_08.proto.StudentResponse) obj;
 
     if (!getName()
         .equals(other.getName())) return false;
@@ -266,69 +266,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResponse parseFrom(byte[] data)
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static StudentResponse parseFrom(java.io.InputStream input)
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static StudentResponse parseDelimitedFrom(java.io.InputStream input)
+  public static GoogleGRPC_08.proto.StudentResponse parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static StudentResponse parseDelimitedFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static StudentResponse parseFrom(
+  public static GoogleGRPC_08.proto.StudentResponse parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -341,7 +341,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(StudentResponse prototype) {
+  public static Builder newBuilder(GoogleGRPC_08.proto.StudentResponse prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -362,18 +362,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:GoogleGRPC_08.proto.StudentResponse)
-          StudentResponseOrBuilder {
+      GoogleGRPC_08.proto.StudentResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return StudentProto.internal_static_proto_StudentResponse_descriptor;
+      return GoogleGRPC_08.proto.StudentProto.internal_static_GoogleGRPC_08_proto_StudentResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return StudentProto.internal_static_proto_StudentResponse_fieldAccessorTable
+      return GoogleGRPC_08.proto.StudentProto.internal_static_GoogleGRPC_08_proto_StudentResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              StudentResponse.class, StudentResponse.Builder.class);
+              GoogleGRPC_08.proto.StudentResponse.class, GoogleGRPC_08.proto.StudentResponse.Builder.class);
     }
 
     // Construct using GoogleGRPC_08.proto.StudentResponse.newBuilder()
@@ -406,17 +406,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return StudentProto.internal_static_proto_StudentResponse_descriptor;
+      return GoogleGRPC_08.proto.StudentProto.internal_static_GoogleGRPC_08_proto_StudentResponse_descriptor;
     }
 
     @java.lang.Override
-    public StudentResponse getDefaultInstanceForType() {
-      return StudentResponse.getDefaultInstance();
+    public GoogleGRPC_08.proto.StudentResponse getDefaultInstanceForType() {
+      return GoogleGRPC_08.proto.StudentResponse.getDefaultInstance();
     }
 
     @java.lang.Override
-    public StudentResponse build() {
-      StudentResponse result = buildPartial();
+    public GoogleGRPC_08.proto.StudentResponse build() {
+      GoogleGRPC_08.proto.StudentResponse result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -424,8 +424,8 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public StudentResponse buildPartial() {
-      StudentResponse result = new StudentResponse(this);
+    public GoogleGRPC_08.proto.StudentResponse buildPartial() {
+      GoogleGRPC_08.proto.StudentResponse result = new GoogleGRPC_08.proto.StudentResponse(this);
       result.name_ = name_;
       result.age_ = age_;
       result.city_ = city_;
@@ -467,16 +467,16 @@ private static final long serialVersionUID = 0L;
     }
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof StudentResponse) {
-        return mergeFrom((StudentResponse)other);
+      if (other instanceof GoogleGRPC_08.proto.StudentResponse) {
+        return mergeFrom((GoogleGRPC_08.proto.StudentResponse)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(StudentResponse other) {
-      if (other == StudentResponse.getDefaultInstance()) return this;
+    public Builder mergeFrom(GoogleGRPC_08.proto.StudentResponse other) {
+      if (other == GoogleGRPC_08.proto.StudentResponse.getDefaultInstance()) return this;
       if (!other.getName().isEmpty()) {
         name_ = other.name_;
         onChanged();
@@ -503,11 +503,11 @@ private static final long serialVersionUID = 0L;
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      StudentResponse parsedMessage = null;
+      GoogleGRPC_08.proto.StudentResponse parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (StudentResponse) e.getUnfinishedMessage();
+        parsedMessage = (GoogleGRPC_08.proto.StudentResponse) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -715,12 +715,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:GoogleGRPC_08.proto.StudentResponse)
-  private static final StudentResponse DEFAULT_INSTANCE;
+  private static final GoogleGRPC_08.proto.StudentResponse DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new StudentResponse();
+    DEFAULT_INSTANCE = new GoogleGRPC_08.proto.StudentResponse();
   }
 
-  public static StudentResponse getDefaultInstance() {
+  public static GoogleGRPC_08.proto.StudentResponse getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -745,7 +745,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public StudentResponse getDefaultInstanceForType() {
+  public GoogleGRPC_08.proto.StudentResponse getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

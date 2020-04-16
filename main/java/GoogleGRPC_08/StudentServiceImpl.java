@@ -59,7 +59,7 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
             public void onNext(StreamRequest value) {
                 System.out.println("接收到客户端信息： " + value.getRequestInfo());
 //                TODO:双向传输有问题
-//                responseObserver.onNext(StreamResponse.newBuilder().setResponseInfo(UUID.randomUUID().toString()).build());
+                responseObserver.onNext(StreamResponse.newBuilder().setResponseInfo(UUID.randomUUID().toString()).build());
             }
 
             @Override
