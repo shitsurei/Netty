@@ -18,7 +18,7 @@ import java.security.SecureRandom;
  * 2 Channel    通道【所有数据都是通过buffer进行的，不存在直接向channel读数据或写数据的情况】
  * 3 Buffer     缓冲区【指的是可以向其写入数据或从中读取数据的对象，类似IO中的流，并且支持即读又写，但是读写状态转换要调用flip方法】
  * NIO中是面向块（block）或缓冲区（buffer）编程的，buffer本身就是一块内存（通过一个数组实现），数据的读写都是通过buffer实现的
- * Java中的8中原生数据类型都有对应的buffer类型
+ * Java中的七种原生数据类型（除了布尔类型）都有对应的buffer类型
  */
 public class NIO {
     public static void main(String[] args) {
